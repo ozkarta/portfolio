@@ -1,0 +1,14 @@
+{
+  "name": "marketplace_mearn",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "core-js": "2.4.1",
+    "express": "4.14.0",
+    "express-session": "1.15.3"
+  },
+  "devDependencies": {}
+}

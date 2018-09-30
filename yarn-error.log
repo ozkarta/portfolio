@@ -1,0 +1,50 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn install
+
+PATH: 
+  /home/ozkarta/bin:/home/ozkarta/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ozkarta/.dotnet/tools
+
+Yarn version: 
+  1.9.2
+
+Node version: 
+  8.12.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/ozkarta/Desktop/personal/portfolio/package.json: Unexpected token } in JSON at position 421
+      at JSON.parse (<anonymous>)
+      at /usr/lib/node_modules/yarn/lib/cli.js:1130:59
+      at Generator.next (<anonymous>)
+      at step (/usr/lib/node_modules/yarn/lib/cli.js:92:30)
+      at /usr/lib/node_modules/yarn/lib/cli.js:103:13
+      at <anonymous>
+
+npm manifest: 
+  {
+    "name": "marketplace_mearn",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "start": "node app.js",
+      "serve": "react-scripts start",
+      "build": "react-scripts build",
+      "postinstall": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+    "dependencies": {
+      "core-js": "2.4.1",
+      "express": "4.14.0",
+      "express-session": "1.15.3",
+    },
+    "devDependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
